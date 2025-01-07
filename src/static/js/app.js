@@ -51,6 +51,7 @@ function TodoListCard() {
 
     return (
         <React.Fragment>
+            <Headers>ToDo App by Suwanachote Nabhan</Headers>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
                 <p className="text-center">No items yet! Add one above!</p>
